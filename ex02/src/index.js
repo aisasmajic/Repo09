@@ -10,8 +10,8 @@ function myFunction(myParameter) {
 
     
 }
-console.log(myFunction((7)));
-console.log(myFunction((2)));
+console.log(myFunction(7));
+console.log(myFunction(2));
 
 // Only change code above this line
 module.exports = myFunction;
