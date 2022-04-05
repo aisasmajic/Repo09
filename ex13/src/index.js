@@ -1,8 +1,8 @@
 // Only change code below this line
-function isLess(a, b){
+function isLess(a, b) {
    if( a < b) {
        return "true";
-   }else {
+   } else {
        return "false";
    }
 }
