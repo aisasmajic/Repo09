@@ -1,6 +1,6 @@
 // Only change code below this line
 function myFunction(myParameter) {
-   if(myParameter > 4) {
+   if(myParameter) {
         return  "The parameter is true!";
     } 
         return "The parameter is false!";
@@ -10,8 +10,8 @@ function myFunction(myParameter) {
 
     
 }
-console.log(myFunction(7));
-console.log(myFunction(2));
+console.log(myFunction("true"));
+console.log(myFunction("false"));
 
 // Only change code above this line
 module.exports = myFunction;
