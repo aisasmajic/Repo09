@@ -1,6 +1,6 @@
 // Only change code below this line
 function logicalOrOperator (num){
-    if(num > 30 || num < 20 ){
+    if(num < 20 || num > 30 ){
         return "Out";
     
     }
